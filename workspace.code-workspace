@@ -1,0 +1,28 @@
+{
+    "folders": [
+		{
+			"path": "F:\\WebProjects\\HTML_TemplateForFCY_Market"
+		},
+		{
+			"path": "F:\\WebProjects\\MainMenu"
+		},
+		{
+			"path": "..\\..\\Sparrow101"
+		},
+		{
+			"path": "F:\\WebProjects\\local\\fx-cyberdev.loc\\www\\wp-content\\themes"
+		},
+		{
+			"path": "F:\\WebProjects\\local\\site1.loc\\wp-content\\themes\\my_first_wp_theme"
+		},
+		{
+			"path": "F:\\WebProjects\\test"
+		},
+		{
+			"path": "F:\\WebProjects\\local\\fx-cyberdev.loc\\www\\wp-content\\plugins\\mihdan-swiper-master"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "test"
+    }
+}
