@@ -3,7 +3,7 @@ const darkTheme = {
     main: '#fff',
     bgd: '#222527',
     modalBgd: 'rgb(239 236 236 / 90%)',
-    btnText: '#060803', 
+    btnText: '#060803',
 };
 
 const lightTheme = {
@@ -18,7 +18,7 @@ let currentTheme = 'dark';
 
 const element = document.documentElement;
 
-function switchTheme () {
+function switchTheme() {
     const aboutMeContainer = document.querySelector('.about');
     const factsContainer = document.querySelector('.codex');
 
@@ -28,6 +28,7 @@ function switchTheme () {
         element.style.setProperty('--theme-bgd', lightTheme.bgd);
         element.style.setProperty('--theme-modal-bgd', lightTheme.modalBgd);
         element.style.setProperty('--theme-btn-text', lightTheme.btnText);
+        element.style.setProperty('--theme-moto-text', '#7A7982');
 
         aboutMeContainer.classList.add('about--light');
         factsContainer.classList.add('codex--light');
@@ -39,6 +40,7 @@ function switchTheme () {
         element.style.setProperty('--theme-bgd', darkTheme.bgd);
         element.style.setProperty('--theme-modal-bgd', darkTheme.modalBgd);
         element.style.setProperty('--theme-btn-text', darkTheme.btnText);
+        element.style.setProperty('--theme-moto-text', '#FFFFFF');
 
         aboutMeContainer.classList.remove('about--light');
         factsContainer.classList.remove('codex--light');
